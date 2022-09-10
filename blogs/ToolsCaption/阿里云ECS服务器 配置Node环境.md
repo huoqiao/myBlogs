@@ -4,9 +4,8 @@ date: 2022-05-25
 tags:
   - 服务器
 categories:
-  - Notes
+  - ToolsCaption
 ---
-
 ## 官网教程在服务器上搭建 Node.js 环境
 
 ### 1.登录你的云服务器
@@ -43,7 +42,7 @@ mv node-v16.13.2-linux-x64/ /usr/local/node
 
 ### 3. 配置 Node.js
 
-1.  执行以下命令，将 Node.js 的可执行文件目录加入到系统环境变量中。
+1. 执行以下命令，将 Node.js 的可执行文件目录加入到系统环境变量中。
 
 ```sh
 echo "export PATH=$PATH:/usr/local/node/bin" >> /etc/profile

@@ -4,11 +4,10 @@ date: 2021-06-13
 tags:
   - gulp
 categories:
-  - 前端工程化
+  - Engineering
 ---
-
 :::tip
-gulp 是一个基于流（stream）的自动化构建工具。<br>
+gulp 是一个基于流（stream）的自动化构建工具。`<br>`
 可以对 js、css、HTML、图片等资源进行压缩/打包，减小体积，等等。
 :::
 [文档](https://www.gulpjs.com.cn/docs/getting-started/quick-start/)

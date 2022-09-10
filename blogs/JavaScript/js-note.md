@@ -2,11 +2,10 @@
 title: JS-note
 date: 2021-06-09
 tags:
-  - JavaScript
-categories:
   - JS基础
+categories:
+  - JavaScript
 ---
-
 ## Array.prototype.reduce()
 
 reduce() 方法对数组中的每个元素执行一个由您提供的 reducer 函数(升序执行)，将其结果汇总为**单个返回值**。
@@ -74,14 +73,12 @@ function remove(arr, item) {
    let newArr = []
    arr.forEach(value => newArr.indexOf(v) === -1 && newArr.push(v))
    ```
-
 2. ES6 Set。
 
    ```js
    let arr = [1, 1, 1, 2, 2, 2, 3, 3, 3]
    let newArr = [...new Set(arr)]
    ```
-
 3. 利用对象键的唯一性实现去重。
 
    ```js
@@ -90,7 +87,6 @@ function remove(arr, item) {
    let newArr = []
    arr.forEach(v => _set[v] || ((_set[v] = true), newArr.push(v)))
    ```
-
 4. ...
 
 ## 逻辑中断

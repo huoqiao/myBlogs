@@ -4,9 +4,9 @@ date: 2022-07-10
 tags:
   - Postman
 categories:
-  - Notes
----
+  - ToolsCaption
 
+---
 ## 1. 简单使用
 
 file > new 新建 collection ：接口集合，命名为项目的名字
@@ -73,4 +73,3 @@ file > new 新建 collection ：接口集合，命名为项目的名字
     pm.collectionVariables.set("token", res.result.token);
 });
 ```
-

@@ -4,9 +4,8 @@ date: 2022-05-13
 tags:
   - 服务器
 categories:
-  - Notes
+  - ToolsCaption
 ---
-
 ## 第一步跟着官网教程在服务器上搭建 javaweb 环境
 
 ### 1.登录你的云服务器
@@ -40,11 +39,11 @@ categories:
 - `GPG key at file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql (0x5072E1F5) is already installed The GPG keys ....`
 - 网上查了资料，原因是 Mysql 的 GPG 升级了，需要重新获取。执行如下命令，即可
 - `rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022`
-- 然后再重新执行`yum -y install mysql-community-server`，即可安装成功。
+- 然后再重新执行 `yum -y install mysql-community-server`，即可安装成功。
 
 2. 启动 MySQL 数据库：`systemctl start mysqld.service`
 3. 查看 MySQL 初始密码：`grep "password" /var/log/mysqld.log`
-4. 登录 mysql 数据库：`mysql -uroot -p`，回车，输入刚才查看的初始密码，登陆成功后，命令提示符为`mysql>`，(注意之后输入命令，每一条命令必须以分号;结束)。
+4. 登录 mysql 数据库：`mysql -uroot -p`，回车，输入刚才查看的初始密码，登陆成功后，命令提示符为 `mysql>`，(注意之后输入命令，每一条命令必须以分号;结束)。
 5. 执行以下命令，修改 MySQL 默认密码为 12345678。
 
 ```shell

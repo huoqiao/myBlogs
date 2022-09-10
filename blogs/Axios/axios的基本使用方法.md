@@ -4,9 +4,8 @@ date: 2021-04-09
 tags:
   - Axios
 categories:
-  - 笔记
+  - Axios
 ---
-
 ## 安装
 
 ```shell

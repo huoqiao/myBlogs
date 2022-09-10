@@ -5,9 +5,8 @@ tags:
   - Webpack
 categories:
   - 青训营笔记
-  - 前端工程化
+  - Engineering
 ---
-
 ## 什么是 Webpack
 
 前端项目由 **资源** 构成
@@ -48,7 +47,6 @@ categories:
 > 快速上手，在 src 目录下创建 index.js 文件
 
 1. 安装 `npm i -D webpack webpack-cli`
-
 2. 编辑配置文件 `webpack.config.js`
 
    ```js
@@ -62,9 +60,7 @@ categories:
      },
    }
    ```
-
 3. 执行编译命令 `npx webpack`
-
 4. 在 dist 目录下生成了 bundle.js
 
 ## 核心流程
@@ -237,7 +233,6 @@ module.exports = {
    ```sh
    npm i -D html-webpack-plugin
    ```
-
 2. 添加 plugins 配置
 
 ```js
@@ -286,7 +281,6 @@ module.exports = {
    ```sh
    npm i -D webpack-dev-server
    ```
-
 2. 开启 HMR
 
    ```js
@@ -301,9 +295,7 @@ module.exports = {
      watch: true, // 持续监听文件的变化
    }
    ```
-
 3. 启动服务 `npx webpack serve`
-
 4. 更改代码即可实时更新
 
 ### Tree-Shaking
@@ -402,11 +394,8 @@ module.exports = {
 为什么要设计插件？
 
 > - 新人需要了解整个流程细节，上手成本高
->
 > - 功能迭代成本高，牵一发动全身
->
 > - 功能僵化作为开源项目而言缺乏成长性
->
 > - 。。。
 >
 >   心智成本高 => 可维护性低 => 生命力弱
@@ -455,7 +444,6 @@ class SomePlugin {
 
    能够灵活搭建集成 Vue、React、Babel、Eslint、Less、Sass、图片处理等工具的 Webpack 环境
    掌握常见脚手架工具的用法，例如: Vue-cli、 create-react-app、@angular/cli
-
 2. 进阶：
 
    理解 Loader ， Plugin 机制
@@ -464,7 +452,6 @@ class SomePlugin {
    理解常见性能优化手段,并能用于解决实际问题
 
    理解前端工程化概念与生态现状
-
 3. 大师级
 
    阅读源码，理解 Webpack 编译、打包原理，甚至能够参与共建

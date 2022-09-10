@@ -5,8 +5,8 @@ module.exports = {
       lang: 'zh-CN',
     },
   },
-  title: '博客',
-  description: '记录，成为更好的自己。',
+  title: 'Blogs',
+  description: '记录，成就更好的自己。',
   dest: 'dist',
   head: [
     [
@@ -38,15 +38,10 @@ module.exports = {
         icon: 'reco-date',
       },
       {
-        text: '码云',
+        text: 'Gitee',
         icon: 'reco-mayun',
-        link: 'https://gitee.com/lai_yingang',
-      },
-      {
-        text: 'GitHub',
-        icon: 'reco-github',
-        link: 'https://github.com/Smile-lyg',
-      },
+        link: 'https://gitee.com/li_jiaze',
+      }
     ],
     type: 'blog',
     blogConfig: {
@@ -73,7 +68,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: '上次更新',
-    author: 'itsmile',
+    author: '或桥',
     authorAvatar: '/avatar.jpg',
     // "record": "xxxx",
     startYear: '2021',

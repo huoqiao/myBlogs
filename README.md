@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 博客
+heroText: 坚持，成就更好的自己
 tagline: 不积跬步，无以至千里；不积小流，无以成江海。
 # heroImage: /hero.png
 # heroImageStyle: {
