@@ -4,13 +4,13 @@
 set -e
  
 # 生成静态文件
-npm run build
+#npm run build
  
 # 进入生成的文件夹
 
 git add -A
 git commit -m 'deploy'
 git push  github main
-git push  origin main
+git push  origin main:master
  
 cd -
