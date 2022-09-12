@@ -7,11 +7,10 @@ set -e
 npm run build
  
 # 进入生成的文件夹
-cd dist
- 
-git init
+
 git add -A
 git commit -m 'deploy'
-git push -f https://gitee.com/lai_yingang/blog master
+git push  github main
+git push  origin main
  
 cd -
