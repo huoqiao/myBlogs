@@ -10,7 +10,7 @@ set -e
 
 git add -A
 git commit -m 'deploy'
-git push  github main
-git push  origin main:master
+git push github main
+git push origin main:master
  
 cd -

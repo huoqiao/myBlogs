@@ -1,5 +1,5 @@
 module.exports = {
-  base: process.env.NODE_ENV == 'production' ? '/blog/' : '/',
+  base: process.env.NODE_ENV == 'production' ? '/myBlogs/' : '/',
   locales: {
     '/': {
       lang: 'zh-CN',
